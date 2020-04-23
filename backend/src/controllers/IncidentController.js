@@ -1,5 +1,5 @@
 const connection = require('../database/connection');
-
+//incident controller
 module.exports ={
     async index(request, response){
         const { page = 1} = request.query;
